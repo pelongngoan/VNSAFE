@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.vnsafe"
+    namespace "com.xverifydemoapp"
     defaultConfig {
-        applicationId "com.vnsafe"
+        applicationId "com.xverifydemoapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

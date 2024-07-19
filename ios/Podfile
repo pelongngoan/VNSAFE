@@ -14,7 +14,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'VNSAFE' do
+target 'xverifydemoapp' do
   config = use_native_modules!
 
   use_react_native!(
@@ -23,7 +23,7 @@ target 'VNSAFE' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'VNSAFETests' do
+  target 'xverifydemoappTests' do
     inherit! :complete
     # Pods for testing
   end

@@ -1,4 +1,4 @@
-package com.vnsafe
+package com.xverifydemoapp
 
 import android.app.Application
 import com.facebook.react.PackageList
